@@ -1,0 +1,60 @@
+baseURL: https://echoguang-ai.github.io/imperial-watch/
+languageCode: zh-CN
+title: Imperial Watch Works
+theme: PaperMod
+
+params:
+  env: production
+  description: Imperial Watch Works — 顶级腕表品牌展示 · Rolex · Omega · Patek Philippe · Audemars Piguet
+  author: Imperial Watch Works
+  
+  homeInfoParams:
+    Title: "⚜ IMPERIAL WATCH WORKS"
+    Content: |
+      专注顶级腕表领域
+      Rolex · Omega · Patek Philippe · Audemars Piguet
+      全球供应链 · 品质保障 · 每日更新
+  
+  socialIcons:
+    - name: whatsapp
+      url: "https://wa.me/8615759903153"
+  
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  
+  keywords:
+    - 腕表
+    - Rolex
+    - Omega
+    - Patek Philippe
+    - Audemars Piguet
+    - Imperial Watch Works
+
+  profileMode:
+    enabled: false
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+    - name: 品牌
+      url: /brand/
+      weight: 2
+    - name: 产品
+      url: /products/
+      weight: 3
+    - name: 关于
+      url: /about/
+      weight: 4
+    - name: 联系
+      url: /contact/
+      weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
