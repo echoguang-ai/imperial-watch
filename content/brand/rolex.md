@@ -1,24 +1,24 @@
 ---
 title: "Rolex / 劳力士"
 date: 2025-06-01
-description: "Rolex 劳力士腕表系列 — Daytona · Submariner · Datejust"
+description: "Rolex 劳力士 腕表系列"
 cover:
-  image: /imperial-watch/images/rolex-daytona.jpg
+  image: /imperial-watch/images/watch-261296.jpg
 ---
 
 # Rolex / 劳力士
 
-创立于 1905 年，由汉斯·威尔斯多夫在伦敦创立，后迁至日内瓦。Rolex 是全球最知名的奢侈腕表品牌，以精准、耐用和经典设计著称。
+## 产品列表 (12件)
 
-## 热门系列
-
-### Daytona / 迪通拿
-赛车计时腕表，因 Daytona 国际赛道而得名。经典三眼表盘设计，搭载 4130 自动上链计时机芯。
-[查看产品 →](/products/rolex-daytona-116500ln/)
-
-### Submariner / 潜航者
-潜水腕表的标杆之作，防水深度达 300 米。标志性的旋转陶瓷表圈，是世界上最被模仿的腕表设计之一。
-[查看产品 →](/products/rolex-submariner-116610ln/)
-
-### Datejust / 日志
-Rolex 最经典的日常正装腕表，首创日历窗放大镜（Cyclops）设计，优雅与实用兼备。
+- [VS 星期日志 黑条丁DD/40mm/丹东3255机/182G/V2版](/products/261296/)
+- [VF/V厂 黑钢迪 迪通拿/40mm/4130机](/products/261298/)
+- [GS 星期日志 香槟盘大金劳DD/36mm/3255机/配重148G](/products/261302/)
+- [ARF 小勒芒 钻刻迪通拿/40mm/4131机/配重162G](/products/261303/)
+- [APS 黑钢迪 迪通拿/40mm/4130机](/products/261307/)
+- [CBD 星期日志 钻圈黑冰糖DD/40mm/3255机/配重202G/升级款陶瓷管](/products/261308/)
+- [ARF 黑钻日志 钻刻黑日志/41mm/丹东3235机](/products/261311/)
+- [EWE 白罗马日志 白日志/36mm/3235机](/products/261316/)
+- [ARF 贝母日志 间金日志/36mm/3235机](/products/261317/)
+- [RGF 绿金迪 迪通拿/40mm/4130机/配重230G](/products/261321/)
+- [Rolex Daytona 116500LN](/products/rolex-daytona-116500ln/)
+- [Rolex Submariner 116610LN](/products/rolex-submariner-116610ln/)
