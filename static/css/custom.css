@@ -1,22 +1,24 @@
-/* ===== Imperial Watch Works - Luxury Theme ===== */
+/* ===== Imperial Watch Works - Luxury Catalog Theme ===== */
 
 :root {
-    --gold: #d4af37;
-    --gold-light: #f0d060;
-    --dark: #0a0a0a;
+    --gold: #c9a84c;
+    --gold-light: #e0c878;
+    --dark: #0f0f0f;
     --dark-2: #1a1a1a;
     --dark-3: #252525;
-    --text: #e0e0e0;
-    --text-dim: #888;
-    --border: #333;
-    --radius: 8px;
+    --text: #ddd;
+    --text-dim: #999;
+    --border: #2a2a2a;
+    --radius: 6px;
 }
 
-/* Dark theme by default */
+* { box-sizing: border-box; }
+
 body {
     background: var(--dark) !important;
     color: var(--text) !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -28,29 +30,35 @@ body {
     color: var(--gold) !important;
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 #menu a {
     color: var(--text-dim) !important;
+    font-size: 14px;
 }
 #menu a:hover, #menu .active {
     color: var(--gold) !important;
 }
 
-/* Main content */
+/* Main layout */
 .main {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 16px;
 }
 
-/* Entry / Card styling */
+/* ===== PRODUCT GRID (home page & list pages) ===== */
 .post-entry {
     background: var(--dark-2);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     overflow: hidden;
     transition: transform 0.2s, border-color 0.2s;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: calc(25% - 10px);
+    margin: 5px;
+    vertical-align: top;
 }
 .post-entry:hover {
     transform: translateY(-2px);
@@ -58,84 +66,118 @@ body {
 }
 .entry-cover img {
     width: 100%;
-    height: 220px;
+    height: 200px;
     object-fit: contain;
-    background: var(--dark-3);
-    padding: 10px;
+    background: var(--dark);
+    padding: 8px;
 }
 .entry-header h2 {
-    font-size: 15px;
+    font-size: 13px !important;
     color: var(--text);
-    padding: 0 12px;
+    padding: 4px 10px;
+    line-height: 1.4;
+    border: none !important;
+    margin: 0;
 }
 .entry-content {
-    color: var(--text-dim);
-    font-size: 13px;
-    padding: 0 12px 12px;
+    display: none;
+}
+.entry-footer {
+    display: none;
 }
 
-/* Home info hero */
+@media (max-width: 900px) {
+    .post-entry { width: calc(50% - 10px); }
+}
+@media (max-width: 500px) {
+    .post-entry { width: calc(50% - 6px); margin: 3px; }
+}
+
+/* ===== PRODUCT DETAIL PAGE ===== */
+.post-single {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.post-title {
+    color: var(--gold) !important;
+    font-size: 20px;
+    margin-bottom: 4px;
+    border: none !important;
+}
+.post-content {
+    line-height: 1.6;
+    color: var(--text);
+}
+.post-content img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 4px;
+    background: var(--dark-2);
+}
+
+/* ===== HERO HOME ===== */
 .home-info {
     text-align: center;
     padding: 40px 20px !important;
-    background: linear-gradient(135deg, var(--dark-2), #1a1a1a);
-    border: 1px solid #333;
+    background: linear-gradient(135deg, #111, #1a1a1a);
+    border: 1px solid #2a2a2a;
     border-radius: var(--radius);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .home-info .entry-header h1 {
     color: var(--gold) !important;
-    font-size: 28px;
-    letter-spacing: 3px;
+    font-size: 26px;
+    letter-spacing: 2px;
 }
 .home-info .entry-content {
+    display: block;
     color: var(--text-dim);
+    font-size: 13px;
+}
+
+/* Buttons */
+.btn-gold {
+    display: inline-block;
+    padding: 10px 24px;
+    background: var(--gold);
+    color: #000 !important;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 6px;
+    font-size: 14px;
+}
+.btn-outline {
+    display: inline-block;
+    padding: 10px 24px;
+    background: transparent;
+    color: var(--gold) !important;
+    border: 1px solid var(--gold);
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 6px;
     font-size: 14px;
 }
 
-/* Product grid */
-.post-entry {
-    display: inline-block;
-    width: calc(25% - 12px);
-    margin: 6px;
-    vertical-align: top;
-}
-@media (max-width: 900px) {
-    .post-entry { width: calc(50% - 12px); }
-}
-@media (max-width: 500px) {
-    .post-entry { width: 100%; margin: 6px 0; }
-}
-
-/* Table styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 10px 0;
-}
-th, td {
-    padding: 8px 12px;
-    border: 1px solid var(--border);
-    text-align: left;
-}
-th {
-    background: var(--dark-3);
-    color: var(--gold);
-}
-
 /* Headings */
-h1 { color: var(--gold) !important; font-size: 24px; }
-h2 { color: var(--text) !important; font-size: 20px; border-bottom: 1px solid #333; padding-bottom: 6px; }
-h3 { color: var(--text); font-size: 17px; }
+h1 { color: var(--gold) !important; font-size: 22px; }
+h2 { color: var(--text) !important; font-size: 18px; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; }
+h3 { color: var(--text); font-size: 16px; }
 
 /* Links */
 a { color: var(--gold); }
 a:hover { color: var(--gold-light); }
 
-/* Social icons */
-.social-icons a {
-    color: var(--gold) !important;
-}
+/* Table */
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+th, td { padding: 8px 12px; border: 1px solid #2a2a2a; text-align: left; }
+th { background: var(--dark-3); color: var(--gold); }
+
+/* Social */
+.social-icons a { color: var(--gold) !important; }
 
 /* Footer */
 .footer {
@@ -144,76 +186,23 @@ a:hover { color: var(--gold-light); }
     text-align: center;
     padding: 20px;
     border-top: 1px solid #222;
-}
-
-/* Breadcrumbs */
-.breadcrumbs {
-    color: var(--text-dim);
-    font-size: 13px;
-    margin-bottom: 12px;
-}
-.breadcrumbs a {
-    color: var(--gold);
-}
-
-/* Buttons */
-.whatsapp-btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background: #25D366;
-    color: #fff !important;
-    border-radius: 50px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.2s;
-}
-.whatsapp-btn:hover {
-    transform: scale(1.05);
-}
-
-/* Brand page grid */
-.brand-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 12px;
-    margin: 16px 0;
-}
-.brand-card {
-    background: var(--dark-2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 16px;
-    text-align: center;
-    transition: border-color 0.2s;
-}
-.brand-card:hover {
-    border-color: var(--gold);
-}
-.brand-card .count {
-    color: var(--gold);
-    font-size: 24px;
-    font-weight: 700;
-}
-.brand-card .name {
-    color: var(--text);
-    margin-top: 4px;
-}
-
-/* Page content */
-.post-content {
-    line-height: 1.8;
-    color: var(--text);
+    font-size: 12px;
 }
 
 /* Pagination */
-.pagination {
-    text-align: center;
-    margin: 20px 0;
-}
+.pagination { text-align: center; margin: 20px 0; }
 .pagination a {
     padding: 6px 14px;
     background: var(--dark-2);
     border: 1px solid var(--border);
     border-radius: 4px;
     color: var(--gold);
+    text-decoration: none;
 }
+
+/* Breadcrumbs */
+.breadcrumbs { color: var(--text-dim); font-size: 12px; margin-bottom: 10px; }
+.breadcrumbs a { color: var(--gold); }
+
+/* Theme toggle - hide or style */
+#theme-toggle { opacity: 0.5; }

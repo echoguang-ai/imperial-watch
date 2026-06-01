@@ -53,6 +53,11 @@ menu:
       url: /contact/
       weight: 5
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 outputs:
   home:
     - HTML
