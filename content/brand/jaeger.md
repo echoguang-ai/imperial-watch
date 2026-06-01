@@ -1,5 +1,7 @@
 ---
 title: "Jaeger-LeCoultre / 积家"
+_build:
+  list: never
 date: 2025-06-01
 description: "Jaeger-LeCoultre 积家 腕表系列"
 cover:

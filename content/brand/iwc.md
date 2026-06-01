@@ -1,5 +1,7 @@
 ---
 title: "IWC / 万国"
+_build:
+  list: never
 date: 2025-06-01
 description: "IWC 万国 腕表系列"
 cover:

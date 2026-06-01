@@ -1,5 +1,7 @@
 ---
 title: "Tudor / 帝舵"
+_build:
+  list: never
 date: 2025-06-01
 description: "Tudor 帝舵 腕表系列"
 cover:

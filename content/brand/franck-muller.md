@@ -1,5 +1,7 @@
 ---
 title: "Franck Muller / 法兰克穆勒"
+_build:
+  list: never
 date: 2025-06-01
 description: "Franck Muller 法兰克穆勒 腕表系列"
 cover:

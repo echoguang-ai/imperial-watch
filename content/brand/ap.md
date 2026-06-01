@@ -1,5 +1,7 @@
 ---
 title: "Audemars Piguet / 爱彼"
+_build:
+  list: never
 date: 2025-06-01
 description: "Audemars Piguet 爱彼 腕表系列"
 cover:

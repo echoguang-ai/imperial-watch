@@ -1,5 +1,7 @@
 ---
 title: "Rolex / 劳力士"
+_build:
+  list: never
 date: 2025-06-01
 description: "Rolex 劳力士 腕表系列"
 cover:

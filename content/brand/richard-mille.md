@@ -1,5 +1,7 @@
 ---
 title: "Richard Mille / 理查德米勒"
+_build:
+  list: never
 date: 2025-06-01
 description: "Richard Mille 理查德米勒 腕表系列"
 cover:

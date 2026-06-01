@@ -1,5 +1,7 @@
 ---
 title: "Cartier / 卡地亚"
+_build:
+  list: never
 date: 2025-06-01
 description: "Cartier 卡地亚 腕表系列"
 cover:

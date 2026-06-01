@@ -1,5 +1,7 @@
 ---
 title: "Omega / 欧米茄"
+_build:
+  list: never
 date: 2025-06-01
 description: "Omega 欧米茄 腕表系列"
 cover:

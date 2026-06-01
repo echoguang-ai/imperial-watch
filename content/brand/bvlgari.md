@@ -1,5 +1,7 @@
 ---
 title: "Bvlgari / 宝格丽"
+_build:
+  list: never
 date: 2025-06-01
 description: "Bvlgari 宝格丽 腕表系列"
 cover:
