@@ -3,7 +3,7 @@ title: "Patek Philippe / 百达翡丽"
 date: 2025-06-01
 description: "Patek Philippe 百达翡丽腕表系列 — Nautilus · Aquanaut"
 cover:
-  image: /images/patek-nautilus.jpg
+  image: /imperial-watch/images/patek-nautilus.jpg
 ---
 
 # Patek Philippe / 百达翡丽

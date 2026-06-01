@@ -3,7 +3,7 @@ title: "Audemars Piguet Royal Oak 15500ST"
 date: 2025-06-01
 description: "AP Royal Oak 15500ST 钢带 · 41mm · 4302机芯 · 皇家橡树系列"
 cover:
-  image: /images/ap-royaloak.jpg
+  image: /imperial-watch/images/ap-royaloak.jpg
 tags: [Audemars Piguet, Royal Oak, 爱彼, 皇家橡树]
 ---
 

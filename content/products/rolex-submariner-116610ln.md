@@ -3,7 +3,7 @@ title: "Rolex Submariner 116610LN"
 date: 2025-06-01
 description: "Rolex Submariner 116610LN 黑色陶瓷圈 · 40mm · 3135机芯 · 潜航者系列"
 cover:
-  image: /images/rolex-submariner.jpg
+  image: /imperial-watch/images/rolex-submariner.jpg
 tags: [Rolex, Submariner, 劳力士, 潜航者]
 ---
 

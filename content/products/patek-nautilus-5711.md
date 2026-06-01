@@ -3,7 +3,7 @@ title: "Patek Philippe Nautilus 5711"
 date: 2025-06-01
 description: "Patek Philippe Nautilus 5711 钢带 · 40mm · 324机芯 · 鹦鹉螺系列"
 cover:
-  image: /images/patek-nautilus.jpg
+  image: /imperial-watch/images/patek-nautilus.jpg
 tags: [Patek Philippe, Nautilus, 百达翡丽, 鹦鹉螺]
 ---
 

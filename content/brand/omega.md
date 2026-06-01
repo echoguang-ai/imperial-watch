@@ -3,7 +3,7 @@ title: "Omega / 欧米茄"
 date: 2025-06-01
 description: "Omega 欧米茄腕表系列 — Seamaster · Speedmaster · Constellation"
 cover:
-  image: /images/omega-seamaster.jpg
+  image: /imperial-watch/images/omega-seamaster.jpg
 ---
 
 # Omega / 欧米茄

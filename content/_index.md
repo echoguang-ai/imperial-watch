@@ -17,7 +17,7 @@ layout: "home"
 
 | | | | |
 |---|---|---|---|
-| [![Rolex](/images/rolex-daytona.jpg)](/brand/rolex/) | [![Omega](/images/omega-seamaster.jpg)](/brand/omega/) | [![Patek Philippe](/images/patek-nautilus.jpg)](/brand/patek-philippe/) | [![Audemars Piguet](/images/ap-royaloak.jpg)](/brand/audemars-piguet/) |
+| [![Rolex](/imperial-watch/images/rolex-daytona.jpg)](/brand/rolex/) | [![Omega](/imperial-watch/images/omega-seamaster.jpg)](/brand/omega/) | [![Patek Philippe](/imperial-watch/images/patek-nautilus.jpg)](/brand/patek-philippe/) | [![Audemars Piguet](/imperial-watch/images/ap-royaloak.jpg)](/brand/audemars-piguet/) |
 | **Rolex** | **Omega** | **Patek Philippe** | **Audemars Piguet** |
 | 劳力士 | 欧米茄 | 百达翡丽 | 爱彼 |
 

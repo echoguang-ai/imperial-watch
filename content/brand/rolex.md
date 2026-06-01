@@ -3,7 +3,7 @@ title: "Rolex / 劳力士"
 date: 2025-06-01
 description: "Rolex 劳力士腕表系列 — Daytona · Submariner · Datejust"
 cover:
-  image: /images/rolex-daytona.jpg
+  image: /imperial-watch/images/rolex-daytona.jpg
 ---
 
 # Rolex / 劳力士

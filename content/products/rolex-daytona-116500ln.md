@@ -3,7 +3,7 @@ title: "Rolex Daytona 116500LN"
 date: 2025-06-01
 description: "Rolex Daytona 116500LN 黑色陶瓷圈 · 40mm · 4130机芯 · 迪通拿系列"
 cover:
-  image: /images/rolex-daytona.jpg
+  image: /imperial-watch/images/rolex-daytona.jpg
 tags: [Rolex, Daytona, 劳力士, 迪通拿]
 ---
 

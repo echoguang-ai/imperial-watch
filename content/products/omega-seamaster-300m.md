@@ -3,7 +3,7 @@ title: "Omega Seamaster 300M"
 date: 2025-06-01
 description: "Omega Seamaster 300M 蓝色陶瓷圈 · 42mm · 8800机芯 · 海马系列"
 cover:
-  image: /images/omega-seamaster.jpg
+  image: /imperial-watch/images/omega-seamaster.jpg
 tags: [Omega, Seamaster, 欧米茄, 海马]
 ---
 

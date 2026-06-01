@@ -3,7 +3,7 @@ title: "Audemars Piguet / 爱彼"
 date: 2025-06-01
 description: "Audemars Piguet 爱彼腕表系列 — Royal Oak · Royal Oak Offshore"
 cover:
-  image: /images/ap-royaloak.jpg
+  image: /imperial-watch/images/ap-royaloak.jpg
 ---
 
 # Audemars Piguet / 爱彼
