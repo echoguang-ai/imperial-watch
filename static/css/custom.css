@@ -1,0 +1,219 @@
+/* ===== Imperial Watch Works - Luxury Theme ===== */
+
+:root {
+    --gold: #d4af37;
+    --gold-light: #f0d060;
+    --dark: #0a0a0a;
+    --dark-2: #1a1a1a;
+    --dark-3: #252525;
+    --text: #e0e0e0;
+    --text-dim: #888;
+    --border: #333;
+    --radius: 8px;
+}
+
+/* Dark theme by default */
+body {
+    background: var(--dark) !important;
+    color: var(--text) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* Header */
+.header, .nav {
+    background: var(--dark-2) !important;
+    border-bottom: 1px solid #222;
+}
+.logo a {
+    color: var(--gold) !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#menu a {
+    color: var(--text-dim) !important;
+}
+#menu a:hover, #menu .active {
+    color: var(--gold) !important;
+}
+
+/* Main content */
+.main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Entry / Card styling */
+.post-entry {
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+    margin-bottom: 16px;
+}
+.post-entry:hover {
+    transform: translateY(-2px);
+    border-color: var(--gold);
+}
+.entry-cover img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: var(--dark-3);
+    padding: 10px;
+}
+.entry-header h2 {
+    font-size: 15px;
+    color: var(--text);
+    padding: 0 12px;
+}
+.entry-content {
+    color: var(--text-dim);
+    font-size: 13px;
+    padding: 0 12px 12px;
+}
+
+/* Home info hero */
+.home-info {
+    text-align: center;
+    padding: 40px 20px !important;
+    background: linear-gradient(135deg, var(--dark-2), #1a1a1a);
+    border: 1px solid #333;
+    border-radius: var(--radius);
+    margin-bottom: 24px;
+}
+.home-info .entry-header h1 {
+    color: var(--gold) !important;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.home-info .entry-content {
+    color: var(--text-dim);
+    font-size: 14px;
+}
+
+/* Product grid */
+.post-entry {
+    display: inline-block;
+    width: calc(25% - 12px);
+    margin: 6px;
+    vertical-align: top;
+}
+@media (max-width: 900px) {
+    .post-entry { width: calc(50% - 12px); }
+}
+@media (max-width: 500px) {
+    .post-entry { width: 100%; margin: 6px 0; }
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+th, td {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+th {
+    background: var(--dark-3);
+    color: var(--gold);
+}
+
+/* Headings */
+h1 { color: var(--gold) !important; font-size: 24px; }
+h2 { color: var(--text) !important; font-size: 20px; border-bottom: 1px solid #333; padding-bottom: 6px; }
+h3 { color: var(--text); font-size: 17px; }
+
+/* Links */
+a { color: var(--gold); }
+a:hover { color: var(--gold-light); }
+
+/* Social icons */
+.social-icons a {
+    color: var(--gold) !important;
+}
+
+/* Footer */
+.footer {
+    background: var(--dark-2) !important;
+    color: var(--text-dim) !important;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.breadcrumbs a {
+    color: var(--gold);
+}
+
+/* Buttons */
+.whatsapp-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #25D366;
+    color: #fff !important;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Brand page grid */
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 16px 0;
+}
+.brand-card {
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    text-align: center;
+    transition: border-color 0.2s;
+}
+.brand-card:hover {
+    border-color: var(--gold);
+}
+.brand-card .count {
+    color: var(--gold);
+    font-size: 24px;
+    font-weight: 700;
+}
+.brand-card .name {
+    color: var(--text);
+    margin-top: 4px;
+}
+
+/* Page content */
+.post-content {
+    line-height: 1.8;
+    color: var(--text);
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+.pagination a {
+    padding: 6px 14px;
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--gold);
+}
