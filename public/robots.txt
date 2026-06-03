@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://echoguang-ai.github.io/imperial-watch/sitemap.xml

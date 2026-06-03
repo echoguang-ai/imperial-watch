@@ -1,8 +1,0 @@
-# Hugo
-/public/
-/resources/
-.hugo_build.lock
-
-# System
-.DS_Store
-Thumbs.db
